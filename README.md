@@ -156,7 +156,7 @@
                 <div class="dot yellow"></div>
                 <div class="dot green"></div>
             </div>
-            <div class="flex-grow text-center text-sm text-gray-400">archie-terminal</div>
+            <div class="flex-grow text-center text-sm text-gray-400">fregat-offshore-terminal</div>
             <div class="text-right text-sm text-gray-400">
                 <i class="fas fa-terminal"></i>
             </div>
@@ -165,7 +165,7 @@
             <!-- Terminal output will be added here by JavaScript -->
         </div>
         <div class="terminal-input-line">
-            <span class="prompt">guest@archie:$</span>
+            <span class="prompt">guest@fregat-offshore:$</span>
             <input id="terminal-input" type="text" class="terminal-input" autofocus>
             <span id="cursor" class="cursor"></span>
         </div>
@@ -249,14 +249,14 @@ Available commands:
                         break;
                     case 'about':
                         response = `
-Archie Terminal is a pioneer in sustainable petroleum storage and transport.
+fregat-offshore Terminal is a pioneer in sustainable petroleum storage and transport.
 We operate over 25 global terminals with a capacity of over 90 million barrels.
 Our mission is to set new standards for safety, efficiency, and environmental responsibility.
                         `;
                         break;
                     case 'contact':
                         response = `
-You can contact us via email at info@archieterminal.com or visit our website at archieterminal.com.
+You can contact us via email at info@fregatoffshore.com or visit our website at fregatoffshoreservices.com.
                         `;
                         break;
                     case 'clear':
